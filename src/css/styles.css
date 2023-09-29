@@ -14,17 +14,26 @@
 @import url('./footer.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  font-family: 'Manrope', 'DM Sans', sans-serif;
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  --dark-color: #1c2225;
+  --yellow-color: #ecd979;
+  --white-color: #fcf9f9;
+  --placeholder-color: rgba(252, 249, 249, 0.5);
+  --p-color: rgba(252, 249, 249, 0.4);
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+body {
+  background-color: var(--dark-color);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--white-color);
+}
+
+p {
+  color: var(--p-color);
 }
