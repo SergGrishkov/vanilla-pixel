@@ -5,17 +5,17 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
+    "build": "vite build --base=/vanilla-pixel/",
     "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^4.0.5",
     "glob": "^8.1.0"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "project-06",
   "license": "ISC",
   "dependencies": {
     "vite-plugin-full-reload": "^1.0.5",
-    "vite-plugin-html-inject": "^1.0.1"
+    "vite-plugin-html-inject": "^1.0.2"
   }
 }
