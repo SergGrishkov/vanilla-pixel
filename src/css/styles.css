@@ -39,3 +39,67 @@ a {
 p {
   color: var(--p-color);
 }
+
+.container {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) {
+  header {
+    padding-bottom: 60px;
+  }
+
+  section {
+    padding-bottom: 80px;
+  }
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  header {
+    padding-bottom: 60px;
+  }
+
+  section {
+    padding-bottom: 80px;
+  }
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    padding-bottom: 106px;
+  }
+
+  section {
+    padding-bottom: 100px;
+  }
+
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  header {
+    padding-bottom: 100px;
+  }
+
+  section {
+    padding-bottom: 150px;
+  }
+
+  .container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
