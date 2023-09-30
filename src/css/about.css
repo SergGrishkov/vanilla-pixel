@@ -1,2 +1,9 @@
 .about {
 }
+
+.about-ornament {
+  background-image: url(../img/about/about-ornament.png);
+  background-repeat: no-repeat;
+  width: 545px;
+  height: 484px;
+}
