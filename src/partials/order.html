@@ -1,3 +1,46 @@
-<section class="order">
-
+<section class="order-section" id="order">
+  <div class="order-container container">
+    <div class="order-form-title-wrapper">
+      <h2 class="order-form-title">
+        <span>Your order</span> is our priority: Personalized approach and
+        quality of service
+      </h2>
+      <form action="" class="order-form-field">
+        <input
+          class="order-form-input"
+          type="text"
+          id="user-name"
+          name="user-name"
+          title="Your full name"
+          placeholder="Enter your full name"
+          pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ ]+"
+          required
+        />
+        <input
+          class="order-form-input"
+          type="email"
+          id="user-email"
+          name="user-email"
+          title="Your email"
+          placeholder="Enter your email"
+          required
+        />
+        <textarea
+          class="order-form-comment"
+          name="user-comments"
+          title="Your-comment"
+          placeholder="Comments"
+        ></textarea>
+        <button class="order-form-btn" type="submit">
+          Send<svg><use href="./img/header/icons.svg"></use></svg>
+        </button>
+      </form>
+    </div>
+    <img
+      src="./img/your-order/content/order-product-tablet.jpg"
+      alt="product image"
+      width="638"
+      height="521"
+    />
+  </div>
 </section>
