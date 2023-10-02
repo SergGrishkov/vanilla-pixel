@@ -10,29 +10,26 @@
 
 /* === BASE STYLE MOBILE ==== */
 .testimonials-section {
-  background-color: var(--black, #1c2225);
-  padding-top: 80px;
-  padding-bottom: 80px;
-  padding-left: 20px;
-  padding-right: 20px;
+  /* background-color: var(--black, #1c2225); */
+  /* padding-top: 80px; */
+  /* padding-bottom: 80px; */
 }
 .section {
-  max-width: 375px;
   margin-left: auto;
   margin-right: auto;
 }
 .testimonials-container {
-  max-width: 335px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .testimonials-title {
-  color: var(--white, #fcf9f9);
-  font-family: Manrope;
+  color: var(--white-color);
   font-size: 32px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.375;
   letter-spacing: -0.96px;
@@ -67,21 +64,17 @@
   border-radius: 4px;
 }
 .testimonials-name {
-  color: var(--white, #fcf9f9);
+  color: var(--white-color);
   text-align: center;
-  font-family: Manrope;
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
   line-height: 1.5;
   text-transform: capitalize;
 }
 .testimonials-text {
-  color: rgba(252, 249, 249, 0.4);
+  color: var(--p-color);
   text-align: center;
-  font-family: Manrope;
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
@@ -99,24 +92,23 @@
 
 @media screen and (min-width: 768px) {
   .testimonials-section {
-    padding-top: 100px;
+    /* padding-top: 100px; */
     padding-bottom: 100px;
-    padding-left: 32px;
-    padding-right: 32px;
+
     /* max-width: 768px; */
   }
   .section {
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+  .testimonials-container {
+  }
+  .container {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
   }
-  .testimonials-container {
-    max-width: 704px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .container {
-  }
+
   .testimonials-title {
     font-size: 44px;
     line-height: 1.45;
@@ -148,18 +140,15 @@
 /* === STYLE DESKTOP 1280 ==== */
 @media screen and (min-width: 1280px) {
   .testimonials-section {
-    padding-top: 150px;
+    /* padding-top: 150px; */
     padding-bottom: 150px;
-    padding-left: 100px;
-    padding-right: 100px;
   }
   .section {
-    max-width: 1280px;
   }
   .testimonials-container {
-    max-width: 1080px;
   }
   .container {
+    max-width: 1280px;
   }
   .testimonials-title {
     font-size: 44px;
