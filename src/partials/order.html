@@ -1,11 +1,12 @@
 <section class="order-section" id="order">
+  <div class="order-background-photo"></div>
   <div class="order-container container">
     <div class="order-form-title-wrapper">
       <h2 class="order-form-title">
-        <span>Your order</span> is our priority: Personalized approach and
-        quality of service
+        <span class="order-title-accent">Your order</span> is our priority:
+        Personalized approach and quality of service
       </h2>
-      <form action="" class="order-form-field">
+      <form class="order-form-field">
         <input
           class="order-form-input"
           type="text"
@@ -31,12 +32,15 @@
           title="Your-comment"
           placeholder="Comments"
         ></textarea>
-        <button class="order-form-btn" type="submit">
-          Send<svg><use href="./img/header/icons.svg"></use></svg>
-        </button>
       </form>
+      <button class="order-form-btn" type="submit">
+        Send<svg class="order-form-btn-icon" width="26" height="10">
+          <use href="./img/header/icons.svg#icon-arrow"></use>
+        </svg>
+      </button>
     </div>
     <img
+      class="order-product-img"
       src="./img/your-order/content/order-product-tablet.jpg"
       alt="product image"
       width="638"
