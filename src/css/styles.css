@@ -78,7 +78,7 @@ section {
   .container {
     padding-left: 32px;
     padding-right: 32px;
-    width: 704px;
+    width: 768px;
   }
 }
 
@@ -95,6 +95,6 @@ section {
   .container {
     padding-left: 100px;
     padding-right: 100px;
-    width: 1080px;
+    width: 1280px;
   }
 }
