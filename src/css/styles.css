@@ -44,33 +44,24 @@ p {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 320px) {
-  header {
-    padding-bottom: 60px;
-  }
-
-  section {
-    padding-bottom: 80px;
-  }
-
-  .container {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+section {
+  margin: 0 auto;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 767px) {
   header {
     padding-bottom: 60px;
   }
 
   section {
     padding-bottom: 80px;
+    max-width: 375px;
   }
 
   .container {
     padding-left: 20px;
     padding-right: 20px;
+    max-width: 335px;
   }
 }
 
@@ -81,6 +72,7 @@ p {
 
   section {
     padding-bottom: 100px;
+    width: 768px;
   }
 
   .container {
@@ -96,6 +88,7 @@ p {
 
   section {
     padding-bottom: 150px;
+    width: 1280px;
   }
 
   .container {
