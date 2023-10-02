@@ -73,6 +73,9 @@
 }
 
 @media screen and (min-width: 1280px) {
-  row-gap: 40px;
-  column-gap: 20px;
+  .collection-list {
+    justify-content: center;
+    row-gap: 40px;
+    column-gap: 20px;
+  }
 }
