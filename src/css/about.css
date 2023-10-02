@@ -1,9 +1,158 @@
-.about {
+.about {}
+
+@media screen and (max-width: 767px) {
+  .about-ornament {
+    background-image: url(../img/about/ornament-mobile@1x.png);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 408px;
+    background-position-x: right;
+  }
+
+  .about-container {
+    position: relative;
+  }
+
+  .about-header {
+    font-family: 'Manrope';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.37;
+    letter-spacing: 0.03em;
+    padding-bottom: 40px;
+  }
+
+  .header-only-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+
+  .about-img-item {
+    width: 335px;
+    height: 499px;
+  }
+
+  .about-description-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-ornament {
+    position: absolute;
+    z-index: -10;
+    left: 125px;
+    top: 690px;
+  }
 }
 
-.about-ornament {
-  background-image: url(../img/about/about-ornament.png);
-  background-repeat: no-repeat;
-  width: 545px;
-  height: 484px;
+
+@media screen and (min-width: 768px) {
+  .about-ornament {
+    background-image: url(../img/about/ornament-tablet@1x.png);
+    background-repeat: no-repeat;
+    width: 369px;
+    height: 484px;
+    background-position: left;
+  }
+
+  .about-container {
+    position: relative;
+  }
+
+  .about-header {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: 0.03em;
+    padding-bottom: 40px;
+  }
+
+  .header-only-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+
+  .about-img-item {
+    width: 704px;
+    height: 545px;
+  }
+
+  .about-description-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-ornament {
+    position: absolute;
+    z-index: -10;
+    left: 400px;
+    top: 450px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-ornament {
+    background-image: url(../img/about/ornament-desctop@1x.png);
+    background-repeat: no-repeat;
+    width: 385px;
+    height: 484px;
+    background-position: 0px;
+  }
+
+  .about-container {
+    position: relative;
+    display: flex;
+    gap: 50px;
+  }
+
+  .header-only-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .about-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.04em;
+  }
+
+  .about-header {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: 0.03em;
+    padding-bottom: 40px;
+  }
+
+  .about-description-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-ornament {
+    position: absolute;
+    z-index: -10;
+    left: 895px;
+    top: 140px;
+  }
+
+  .about-img-item {
+    width: 594px;
+    height: 545px;
+  }
+
 }
