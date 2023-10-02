@@ -6,7 +6,6 @@
     background-repeat: no-repeat;
     width: 250px;
     height: 408px;
-    background-position-x: right;
   }
 
   .about-container {
@@ -31,6 +30,7 @@
   }
 
   .about-img-item {
+    border-radius: 4px;
     width: 335px;
     height: 499px;
   }
@@ -56,7 +56,6 @@
     background-repeat: no-repeat;
     width: 369px;
     height: 484px;
-    background-position: left;
   }
 
   .about-container {
@@ -80,6 +79,7 @@
   }
 
   .about-img-item {
+    border-radius: 4px;
     width: 704px;
     height: 545px;
   }
@@ -98,13 +98,13 @@
   }
 }
 
+
 @media screen and (min-width: 1280px) {
   .about-ornament {
     background-image: url(../img/about/ornament-desctop@1x.png);
     background-repeat: no-repeat;
     width: 385px;
     height: 484px;
-    background-position: 0px;
   }
 
   .about-container {
@@ -151,8 +151,8 @@
   }
 
   .about-img-item {
+    border-radius: 4px;
     width: 594px;
     height: 545px;
   }
-
 }
