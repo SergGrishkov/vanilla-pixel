@@ -1,14 +1,16 @@
-.about {}
-
 @media screen and (max-width: 767px) {
   .about-ornament {
     background-image: url(../img/about/ornament-mobile@1x.png);
     background-repeat: no-repeat;
     width: 250px;
     height: 408px;
+    position: absolute;
+    z-index: -10;
+    left: 106px;
+    top: 155px;
   }
 
-  .about-container {
+  .about-img-ornamet {
     position: relative;
   }
 
@@ -40,13 +42,6 @@
     flex-direction: column;
     gap: 20px;
   }
-
-  .about-ornament {
-    position: absolute;
-    z-index: -10;
-    left: 125px;
-    top: 690px;
-  }
 }
 
 
@@ -56,9 +51,13 @@
     background-repeat: no-repeat;
     width: 369px;
     height: 484px;
+    position: absolute;
+    z-index: -10;
+    left: 368px;
+    top: 110px;
   }
 
-  .about-container {
+  .about-img-ornamet {
     position: relative;
   }
 
@@ -89,13 +88,6 @@
     flex-direction: column;
     gap: 20px;
   }
-
-  .about-ornament {
-    position: absolute;
-    z-index: -10;
-    left: 400px;
-    top: 450px;
-  }
 }
 
 
@@ -105,6 +97,14 @@
     background-repeat: no-repeat;
     width: 385px;
     height: 484px;
+    position: absolute;
+    z-index: -10;
+    left: 309px;
+    top: 140px;
+  }
+
+  .about-img-ornamet {
+    position: relative;
   }
 
   .about-container {
@@ -141,13 +141,6 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-  }
-
-  .about-ornament {
-    position: absolute;
-    z-index: -10;
-    left: 895px;
-    top: 140px;
   }
 
   .about-img-item {
