@@ -73,6 +73,7 @@
     margin-bottom: 40px;
     min-width: 549px;
     margin: 0;
+    padding-top: 26px;
   }
 
   .hero-ukrainian {
@@ -109,8 +110,8 @@
 
   .hero-made-by-hand-img {
     position: absolute;
-    right: 23px;
-    top: 795px;
+    right: 32px;
+    top: 825px;
   }
 }
 
@@ -126,6 +127,7 @@
 
   .hero-header {
     min-width: 518px;
+    padding-top: 0;
   }
 
   .hero-picture {
