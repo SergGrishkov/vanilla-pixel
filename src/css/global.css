@@ -31,3 +31,51 @@ p {
 section {
     margin: 0 auto;
 }
+
+@media screen and (max-width: 767px) {
+    header {
+        padding-bottom: 60px;
+    }
+
+    section {
+        padding-bottom: 80px;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: 375px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        padding-bottom: 106px;
+    }
+
+    section {
+        padding-bottom: 100px;
+    }
+
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+        width: 768px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    header {
+        padding-bottom: 100px;
+    }
+
+    section {
+        padding-bottom: 150px;
+    }
+
+    .container {
+        padding-left: 100px;
+        padding-right: 100px;
+        width: 1280px;
+    }
+}
