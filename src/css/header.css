@@ -1,2 +1,200 @@
-.header {
+@media screen and (max-width: 767px) {
+  .header {
+    margin-top: 20px;
+  }
+  .header-logo-container {
+    margin-right: 87px;
+  }
+  .header-navigation-container,
+  .header-contact-container {
+    display: none;
+  }
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-social-container-full {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .header-social-list {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .header-social-item {
+    padding: 8px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    background: rgba(252, 249, 249, 0.1);
+  }
+  .header-social-item:hover,
+  .header-social-item:focus {
+    border: 1px solid var(--yellow, #ecd979);
+  }
+  .header-menu-button {
+    fill: none;
+    background-color: transparent;
+    border: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header-navigation-container,
+  .header-contact-container {
+    display: none;
+  }
+  .modified-header {
+    display: flex;
+    width: 768px;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    gap: 440px;
+    flex-shrink: 0;
+    margin-top: 20px;
+  }
+  .header-logo {
+    width: 44px;
+    height: 39px;
+    flex-shrink: 0;
+  }
+  .header-social-container-full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .header-social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .header-social-list {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .header-social-item {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    background: rgba(252, 249, 249, 0.1);
+  }
+  .header-social-item:hover,
+  .header-social-item:focus {
+    border: 1px solid var(--yellow, #ecd979);
+  }
+  .header-social-icon {
+    display: flex;
+    width: 28px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+  }
+  .header-menu-button {
+    background-color: transparent;
+    border: none;
+  }
+  .header-menu-open {
+    width: 44px;
+    height: 30px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header-menu-container {
+    display: none;
+  }
+  .modified-header {
+    display: flex;
+    width: 1280px;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+    gap: 129px;
+    flex-shrink: 0;
+    margin-top: 20px;
+  }
+  .header-navigation-pc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-right: 129px;
+  }
+  .header-logo {
+    width: 44px;
+    height: 39px;
+  }
+  .header-navigation-container,
+  .header-navigation-list {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+  }
+  .header-navigation-item {
+    color: var(--white, #fcf9f9);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.29;
+    text-transform: uppercase;
+  }
+  .header-social-container-full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .header-contact-container {
+    display: flex;
+    padding: 14px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+  }
+  .header-contact-phone {
+    color: var(--white, #fcf9f9);
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.42;
+    text-transform: uppercase;
+  }
+  .header-contact-phone:hover,
+  .header-contact-phone:focus {
+    border: 1px solid var(--yellow, #ecd979);
+  }
+  .header-social-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .header-social-item {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    background: rgba(252, 249, 249, 0.1);
+  }
+  .header-social-icon {
+    display: flex;
+    width: 28px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+  }
 }
