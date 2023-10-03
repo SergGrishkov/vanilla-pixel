@@ -5,6 +5,7 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./global.css');
 @import url('./header.css');
 @import url('./hero.css');
 @import url('./about.css');
@@ -14,39 +15,6 @@
 @import url('./footer.css');
 @import url('./modal.css');
 
-:root {
-  font-family: 'Manrope', 'DM Sans', sans-serif;
-
-  --dark-color: #1c2225;
-  --yellow-color: #ecd979;
-  --white-color: #fcf9f9;
-  --placeholder-color: rgba(252, 249, 249, 0.5);
-  --p-color: rgba(252, 249, 249, 0.4);
-}
-
-body {
-  background-color: var(--dark-color);
-}
-
-h1,
-h2,
-h3,
-h4,
-a {
-  color: var(--white-color);
-}
-
-p {
-  color: var(--p-color);
-}
-
-.container {
-  margin: 0 auto;
-}
-
-section {
-  margin: 0 auto;
-}
 
 @media screen and (max-width: 767px) {
   header {

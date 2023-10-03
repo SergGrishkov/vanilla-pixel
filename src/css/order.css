@@ -1,6 +1,3 @@
-.order {
-}
-
 .order-background-photo {
   background: var(--dark-color);
   background-image: url(../img/your-order/backgrounds/order-background-girl-mobile.jpg);
@@ -20,7 +17,8 @@
   color: var(--white-color);
   font-size: 32px;
   font-weight: 500;
-  line-height: 44px; /* 137.5% */
+  line-height: 44px;
+  /* 137.5% */
   letter-spacing: -0.96px;
 }
 
@@ -141,6 +139,7 @@
     background-image: url(../img/your-order/backgrounds/order-background-girl-tablet.jpg);
     height: 776px;
   }
+
   .order-form-title {
     font-size: 44px;
     font-weight: 500;
@@ -148,10 +147,12 @@
     letter-spacing: -1.32px;
     width: 542px;
   }
+
   .order-form-title-wrapper {
     align-items: flex-start;
     margin-bottom: 100px;
   }
+
   .order-form-field {
     align-items: flex-start;
     width: 508px;
@@ -195,25 +196,26 @@
     background-image: url(../img/your-order/backgrounds//order-background-ornament-laptop.png);
   }
 }
+
 @media screen and (min-resolution: 192dpi) and (max-width: 375px),
-  (min-resolution: 2dppx) and (min-width: 321px),
-  (min-device-pixel-ratio: 2) and (min-width: 321px) {
+(min-resolution: 2dppx) and (min-width: 321px),
+(min-device-pixel-ratio: 2) and (min-width: 321px) {
   .order-background-photo {
     background-image: url(../img/your-order/backgrounds/order-background-girl-mobile@2x.jpg);
   }
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
-  (min-resolution: 2dppx) and (min-width: 768px),
-  (min-device-pixel-ratio: 2) and (min-width: 768px) {
+(min-resolution: 2dppx) and (min-width: 768px),
+(min-device-pixel-ratio: 2) and (min-width: 768px) {
   .order-background-photo {
     background-image: url(../img/your-order/backgrounds/order-background-girl-tablet@2x.jpg);
   }
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
-  (min-resolution: 2dppx) and (min-width: 1280px),
-  (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+(min-resolution: 2dppx) and (min-width: 1280px),
+(min-device-pixel-ratio: 2) and (min-width: 1280px) {
   .order-background-photo {
     background-image: url(../img/your-order/backgrounds/order-background-girl-laptop@2x.jpg);
   }
