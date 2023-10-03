@@ -1,4 +1,8 @@
 .footer {
+    .footer-section{
+        border-top: 1px solid rgba(252, 249, 249, 0.10);
+        
+    }
     @media (max-width: 768px){
         .footer-container{
             height: 600px;
@@ -6,8 +10,9 @@
             background-repeat: no-repeat;
             background-position-x: center;
             background-position-y: bottom;
+            background-size: 100%; 
         }
-        @media (min-resolution: 192dpi),(min-resolution: 2dppx),(min-in-device-pixel-ratio:2){
+        @media (max-width: 768px) and (min-resolution: 192dpi),(min-resolution: 2dppx),(min-in-device-pixel-ratio:2){
             .footer-container{
                 background-image: url(/img/footer/ornament_mob@2x.png) ;
                 background-size: 100%; 
@@ -21,10 +26,14 @@
                 background-repeat: no-repeat;
                 background-position-x: right;
                 background-position-y: center;
+                background-size: 20%;
             }
-            @media    (min-resolution: 192dpi)or(min-resolution: 2dppx)or(min-in-device-pixel-ratio:2){
-                .footer-section{
+            @media (min-width: 768px) and    (min-resolution: 192dpi),(min-resolution: 2dppx),(min-in-device-pixel-ratio:2){
+                .footer-container{
                     background-image: url(/img/footer/ornament_tab@2x.png);
+                    background-repeat: no-repeat;
+                    background-size: 20%;
+
                 }
             }   
             }
@@ -35,14 +44,18 @@
                     background-repeat: no-repeat;
                     background-position-x: right;
                     background-position-y: center;
+                    background-size:28% ;
                 }
-                @media    (min-resolution: 192dpi)or(min-resolution: 2dppx)or(min-in-device-pixel-ratio:2){
+                @media    (min-resolution: 192dpi),(min-resolution: 2dppx),(min-in-device-pixel-ratio:2){
                     .footer-section{
                         background-image: url(/img/footer/ornament_desk@2x.png);
+                        background-size:28% ;
                     }
                 }   
                 }     
         }
+
+        
         .footer-slogan{
           font-size: 44px;
           font-style: normal;
@@ -51,10 +64,15 @@
           letter-spacing: -1.32px;
           width: 335px    ;
         }
+        @media (max-width: 375px){
+            .footer-slogan{
+                width: 95%;
+            }
+        }
         .footer-ukrainian{
           color: var( --yellow-color);
         }
-      
+        
         .footer-navigation {
           column-count: 2;
           padding-bottom: 15px;
@@ -69,7 +87,7 @@
           line-height: 1.28em;
           text-transform: uppercase;
         }
-    
+        
     @media (min-width: 768px){
         .footer-section {
           padding: 0;
