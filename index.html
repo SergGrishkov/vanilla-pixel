@@ -21,8 +21,8 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Manrope:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/vanilla-pixel/assets/index-155be33d.js"></script>
-    <link rel="stylesheet" href="/vanilla-pixel/assets/index-0736ae51.css">
+    <script type="module" crossorigin src="/vanilla-pixel/assets/index-b154542b.js"></script>
+    <link rel="stylesheet" href="/vanilla-pixel/assets/index-66e11612.css">
   </head>
 
   <body>
@@ -90,19 +90,32 @@
       <section class="hero">
   <div class="hero-container container">
     <div class="hero-main-header-and-btn">
-      <div class="hero-img-girl">
-        <img class="hero-picture" srcset="/vanilla-pixel/assets/girl@2x-4b2f18fa.jpg 2x" src="/vanilla-pixel/assets/girl-8ba799f6.jpg"
-          alt="Satisfied client with our production" width="392" height="545" />
-      </div>
       <h1 class="hero-header">
-        Reviving the traditional Ukrainian artistry in every stitch.
+        Reviving the traditional
+        <span class="hero-ukrainian">Ukrainian </span> artistry in every stitch.
       </h1>
       <button class="hero-btn-order" type="button">
         Order
-        <svg class="hero-arrow" width="26" height="10">
+        <svg class="hero-arrow" width="26" height="21">
           <use href="/vanilla-pixel/assets/icons-04b5fb30.svg#icon-arrow"></use>
         </svg>
       </button>
+    </div>
+    <div class="hero-img-girl">
+      <img
+        class="hero-picture"
+        srcset="
+          ./img/hero/girl-desktop.jpg   392w,
+          ./img/girl-desktop@2x.jpg     784w,
+          ./img/hero/girl-tablet.jpg    413w,
+          ./img/hero/girl-tablet@2x.jpg 826w,
+          ./img/hero/girl-mobile.jpg    335w,
+          ./img/hero/girl-mobile@2x.jpg 670w
+        "
+        sizes="(min-width: 1280px) 392px, (min-width: 768px) 413px, (max-width: 767px) 335px"
+        src="/vanilla-pixel/assets/girl-mobile-cb0b569a.jpg"
+        alt="Satisfied client with our production"
+      />
     </div>
     <div class="hero-embroidery">
       <svg class="hero-star" width="52" height="51">
@@ -111,11 +124,18 @@
       <p class="hero-made-by-hand">all embroidery is made by hand</p>
     </div>
     <div class="hero-made-by-hand-img">
-      <img class="hero-made-by-hand-picture" srcset="/vanilla-pixel/assets/group@2x-f1bdf012.png 2x" src="/vanilla-pixel/assets/group-10fc83fe.png"
-        alt="Our Ukraine" width="139" height="197" />
+      <img
+        class="hero-made-by-hand-picture"
+        srcset="/vanilla-pixel/assets/group-mobile@2x-db88d00b.png "
+        src="/vanilla-pixel/assets/group-mobile-bd8a19c3.png"
+        alt="Our Ukraine"
+        width="139"
+        height="197"
+      />
     </div>
   </div>
 </section>
+
 
       <section class="about" id="about">
   <div class="about-container container">
