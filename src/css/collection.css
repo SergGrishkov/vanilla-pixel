@@ -1,12 +1,11 @@
 .collection-container {
   background-image: url(../img/collection/collection-ornament.png);
   background-repeat: no-repeat;
-  background-position: 0 298px;
+  background-position: 0 10%;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  padding: 0;
 }
 
 .collection-title {
@@ -31,6 +30,7 @@
 
 .collection-item-img {
   border-radius: 4px;
+  width: 100%;
 }
 
 .collection-item-box {
@@ -60,7 +60,7 @@
   .collection-container {
     background-image: url(../img/collection/collection-ornament-tablet.png);
     background-repeat: no-repeat;
-    background-position: 0 201px;
+    background-position: 0 15%;
   }
 
   .collection-list {
@@ -74,6 +74,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .collection-container {
+    background-position: 0 25%;
+  }
+
   .collection-list {
     justify-content: center;
     row-gap: 40px;
