@@ -21,8 +21,8 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Manrope:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/vanilla-pixel/assets/index-38ca7a79.js"></script>
-    <link rel="stylesheet" href="/vanilla-pixel/assets/index-b3ef86ba.css">
+    <script type="module" crossorigin src="/vanilla-pixel/assets/index-155be33d.js"></script>
+    <link rel="stylesheet" href="/vanilla-pixel/assets/index-0736ae51.css">
   </head>
 
   <body>
@@ -228,49 +228,58 @@
 </section>
 
       <section class="order-section" id="order">
+  <div class="order-background-photo"></div>
   <div class="order-container container">
     <div class="order-form-title-wrapper">
       <h2 class="order-form-title">
-        <span>Your order</span> is our priority: Personalized approach and
-        quality of service
+        <span class="order-title-accent">Your order</span> is our priority:
+        Personalized approach and quality of service
       </h2>
-      <form action="" class="order-form-field">
-        <input
-          class="order-form-input"
-          type="text"
-          id="user-name"
-          name="user-name"
-          title="Your full name"
-          placeholder="Enter your full name"
-          pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ ]+"
-          required
-        />
-        <input
-          class="order-form-input"
-          type="email"
-          id="user-email"
-          name="user-email"
-          title="Your email"
-          placeholder="Enter your email"
-          required
-        />
-        <textarea
-          class="order-form-comment"
-          name="user-comments"
-          title="Your-comment"
-          placeholder="Comments"
-        ></textarea>
+      <form class="order-form-field">
+        <div class="order-form-input-wrapper">
+          <input
+            class="order-form-input"
+            type="text"
+            id="user-name"
+            name="user-name"
+            title="Your full name"
+            placeholder="Enter your full name"
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ ]+"
+            required
+          />
+          <input
+            class="order-form-input"
+            type="email"
+            id="user-email"
+            name="user-email"
+            title="Your email"
+            placeholder="Enter your email"
+            required
+          />
+          <textarea
+            class="order-form-comment"
+            name="user-comments"
+            title="Your-comment"
+            placeholder="Comments"
+          ></textarea>
+        </div>
         <button class="order-form-btn" type="submit">
-          Send<svg><use href="/vanilla-pixel/assets/icons-04b5fb30.svg"></use></svg>
+          Send<svg class="order-form-btn-icon" width="26" height="10">
+            <use href="/vanilla-pixel/assets/icons-04b5fb30.svg#icon-arrow"></use>
+          </svg>
         </button>
       </form>
     </div>
-    <img
-      src="/vanilla-pixel/assets/order-product-tablet-ddb2fc8e.jpg"
-      alt="product image"
-      width="638"
-      height="521"
-    />
+    <div class="order-product-img-wrapper">
+      <img
+        class="order-product-img"
+        srcset="/vanilla-pixel/assets/order-product-tablet-ddb2fc8e.jpg 638w, /vanilla-pixel/assets/order-product-tablet@2x-f974c9d6.jpg 1276w, /vanilla-pixel/assets/order-product-laptop-cf9bec2f.jpg 524w, /vanilla-pixel/assets/order-product-laptop@2x-cf7c4f25.jpg 1048w"
+        sizes="(min-width: 1280px) 524px, (min-width: 768px) 638px"
+        src="/vanilla-pixel/assets/order-product-tablet-ddb2fc8e.jpg"
+        alt="product image"
+        height="521"
+      />
+    </div>
   </div>
 </section>
 
