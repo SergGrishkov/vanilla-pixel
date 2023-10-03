@@ -1,1 +1,129 @@
+/* Мобільні стилі */
 
+@media screen and (max-width: 767px) {
+  .hero-embroidery {
+    display: none;
+  }
+  .hero-made-by-hand-img {
+    display: none;
+  }
+}
+
+.hero-main-header-and-btn {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.hero-header {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.23;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  width: 335px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-ukrainian {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.23;
+  letter-spacing: -0.03em;
+  color: #ecd979;
+}
+
+.hero-btn-order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  color: #fcf9f9;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  padding: 14px 36px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  gap: 10px;
+  max-width: 154px;
+}
+
+.hero-img-girl {
+  margin: 0 auto;
+}
+
+/* Планшетні стилі */
+
+@media screen and (min-width: 768px) {
+  .hero-container {
+    position: relative;
+  }
+
+  .hero-main-header-and-btn {
+    gap: 40px;
+    width: 549px;
+  }
+
+  .hero-header {
+    font-size: 54px;
+    line-height: 1.19;
+    margin-bottom: 40px;
+    min-width: 549px;
+    margin: 0;
+  }
+
+  .hero-ukrainian {
+    font-size: 54px;
+    line-height: 1.19;
+  }
+
+  .hero-embroidery {
+    position: absolute;
+    right: 32px;
+    top: 0;
+    width: 115px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-made-by-hand {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    color: rgba(252, 249, 249, 0.4);
+  }
+
+  .hero-made-by-hand-img {
+    position: absolute;
+    right: 23px;
+    top: 795px;
+  }
+}
+
+/* Десктопні стилі */
+
+@media screen and (min-width: 1280px) {
+  .hero-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 40px;
+    width: 1280px;
+  }
+
+  .hero-header {
+    width: 632px;
+  }
+}
