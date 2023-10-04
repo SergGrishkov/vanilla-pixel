@@ -1,89 +1,113 @@
 @media screen and (max-width: 767px) {
+
   .header-navigation-container,
   .header-phone-container {
     display: none;
   }
+
   .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
   }
+
   .header-social-container {
     display: flex;
     align-items: center;
   }
+
   .header-social-list {
     display: flex;
     align-items: center;
     gap: 12px;
   }
+
   .header-social-item {
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
     background: rgba(252, 249, 249, 0.1);
     padding: 8px;
+    width: 44px;
+    height: 44px;
   }
+
   .header-social-item:hover,
   .header-social-item:focus {
     border: 1px solid var(--yellow, #ecd979);
   }
+
   .header-menu-button {
     background-color: transparent;
     border: none;
   }
 }
+
 @media screen and (min-width: 768px) {
+
   .header-navigation-container,
   .header-phone-container {
     display: none;
   }
+
   .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
   }
+
   .header-social-container {
     display: flex;
     align-items: center;
   }
+
   .header-social-list {
     display: flex;
     align-items: center;
     gap: 12px;
   }
+
   .header-social-item {
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.1);
     background: rgba(252, 249, 249, 0.1);
     padding: 8px;
+    width: 44px;
+    height: 44px;
   }
+
   .header-social-item:hover,
   .header-social-item:focus {
     border: 1px solid var(--yellow, #ecd979);
   }
+
   .header-menu-button {
     background-color: transparent;
     border: none;
   }
+
   .header-menu-open {
     width: 44px;
     height: 30px;
     margin-left: 20px;
   }
 }
+
 @media screen and (min-width: 1280px) {
   .header-menu-container {
     display: none;
   }
+
   .header-navigation-container {
     display: initial;
   }
+
   .header-navigation-list {
     display: flex;
     gap: 25px;
   }
+
   .header-navigation-link {
     color: var(--white, #fcf9f9);
     font-family: Manrope;
@@ -93,6 +117,7 @@
     line-height: 1.29;
     text-transform: uppercase;
   }
+
   .header-phone-container {
     display: initial;
     border-radius: 15px;
@@ -102,6 +127,7 @@
     align-items: center;
     gap: 10px;
   }
+
   .header-contact-phone {
     color: var(--white, #fcf9f9);
     font-family: Manrope;
@@ -111,10 +137,12 @@
     line-height: 1.43;
     text-transform: uppercase;
   }
+
   .desktop-container {
     display: flex;
     gap: 20px;
   }
+
   .desktop-navigation-container {
     display: flex;
     align-items: center;
