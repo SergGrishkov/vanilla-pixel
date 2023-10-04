@@ -1,17 +1,8 @@
 @media screen and (max-width: 767px) {
-  .about-ornament {
+  .about-container {
     background-image: url(../img/about/ornament-mobile@1x.png);
     background-repeat: no-repeat;
-    width: 250px;
-    height: 408px;
-    position: absolute;
-    z-index: -10;
-    left: 106px;
-    top: 155px;
-  }
-
-  .about-img-ornamet {
-    position: relative;
+    background-position: bottom right;
   }
 
   .about-header {
@@ -33,8 +24,12 @@
 
   .about-img-item {
     border-radius: 4px;
-    width: 335px;
-    height: 499px;
+    width: 100%;
+    padding-bottom: 64px;
+  }
+
+  .about {
+    padding-bottom: 36px;
   }
 
   .about-description-container {
@@ -46,19 +41,10 @@
 
 
 @media screen and (min-width: 768px) {
-  .about-ornament {
+  .about-container {
     background-image: url(../img/about/ornament-tablet@1x.png);
     background-repeat: no-repeat;
-    width: 369px;
-    height: 484px;
-    position: absolute;
-    z-index: -10;
-    left: 368px;
-    top: 110px;
-  }
-
-  .about-img-ornamet {
-    position: relative;
+    background-position: bottom right;
   }
 
   .about-header {
@@ -77,10 +63,14 @@
     padding-bottom: 40px;
   }
 
+  .about {
+    padding-bottom: 50px;
+  }
+
   .about-img-item {
     border-radius: 4px;
-    width: 704px;
-    height: 545px;
+    width: 100%;
+    padding-bottom: 50px;
   }
 
   .about-description-container {
@@ -92,25 +82,13 @@
 
 
 @media screen and (min-width: 1280px) {
-  .about-ornament {
+  .about-container {
     background-image: url(../img/about/ornament-desctop@1x.png);
     background-repeat: no-repeat;
-    width: 385px;
-    height: 484px;
-    position: absolute;
-    z-index: -10;
-    left: 309px;
-    top: 140px;
-  }
-
-  .about-img-ornamet {
-    position: relative;
-  }
-
-  .about-container {
-    position: relative;
+    background-position: bottom right;
     display: flex;
     gap: 50px;
+    padding-bottom: 80px;
   }
 
   .header-only-text {
@@ -143,8 +121,14 @@
     gap: 20px;
   }
 
+  .about {
+    padding-bottom: 70px;
+  }
+
   .about-img-item {
     border-radius: 4px;
+    width: 100%;
+    padding-bottom: 0px;
     width: 594px;
     height: 545px;
   }
