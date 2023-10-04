@@ -1,141 +1,143 @@
 .footer {
-    .footer-section{
-        border-top: 1px solid rgba(252, 249, 249, 0.10);
-        
+  .footer-section {
+    border-top: 1px solid rgba(252, 249, 249, 0.1);
+  }
+  @media (max-width: 768px) {
+    .footer-section {
+      padding-bottom: 0;
     }
-    @media (max-width: 768px){
-        .footer-container{
-            height: 600px;
-            background-image: url(/img/footer/ornament_mob.png);
-            background-repeat: no-repeat;
-            background-position-x: center;
-            background-position-y: bottom;
-            background-size: 100%; 
-        }
-        @media (max-width: 768px) and (min-resolution: 192dpi),(min-resolution: 2dppx),(min-in-device-pixel-ratio:2){
-            .footer-container{
-                background-image: url(/img/footer/ornament_mob@2x.png) ;
-                background-size: 100%; 
-            }
-        }   
-        }
-        @media (min-width: 768px){
-            .footer-container{
-            
-                background-image: url(/img/footer/ornament_tab.png);
-                background-repeat: no-repeat;
-                background-position-x: right;
-                background-position-y: center;
-                background-size: 20%;
-            }
-            @media (min-width: 768px) and    (min-resolution: 192dpi),(min-resolution: 2dppx),(min-in-device-pixel-ratio:2){
-                .footer-container{
-                    background-image: url(/img/footer/ornament_tab@2x.png);
-                    background-repeat: no-repeat;
-                    background-size: 20%;
+    .footer-container {
+      height: 600px;
+      background-image: url(/img/footer/ornament_mob.png);
+      background-repeat: no-repeat;
+      background-position-x: center;
+      background-position-y: bottom;
+      background-size: 100%;
+      padding-top: 40px;
+    }
 
-                }
-            }   
-            }
-            @media (min-width: 1280px){
-                .footer-container{
-                
-                    background-image: url(/img/footer/ornament_desk.png);
-                    background-repeat: no-repeat;
-                    background-position-x: right;
-                    background-position-y: center;
-                    background-size:28% ;
-                }
-                @media    (min-resolution: 192dpi),(min-resolution: 2dppx),(min-in-device-pixel-ratio:2){
-                    .footer-section{
-                        background-image: url(/img/footer/ornament_desk@2x.png);
-                        background-size:28% ;
-                    }
-                }   
-                }     
-        }
-
-        
-        .footer-slogan{
-          font-size: 44px;
-          font-style: normal;
-          font-weight: 400;
-          line-height: 1.22em;
-          letter-spacing: -1.32px;
-          width: 335px    ;
-        }
-        @media (max-width: 375px){
-            .footer-slogan{
-                width: 95%;
-            }
-        }
-        .footer-ukrainian{
-          color: var( --yellow-color);
-        }
-        
-        .footer-navigation {
-          column-count: 2;
-          padding-bottom: 15px;
-          display: block;
-        }
-        .footer-navigation-li{
-          padding-bottom: 25px;
-        }
-        .footer-link {
-          font-size: 14px;
-          font-weight: 400;
-          line-height: 1.28em;
-          text-transform: uppercase;
-        }
-        
-    @media (min-width: 768px){
-        .footer-section {
-          padding: 0;
-          background: image();
-        }
-        .footer-container{
-          display: flex;
-          max-width: 768px; 
-          flex-direction: column;   
-        }
-        
-        
-        .footer-navigation{
-            margin-top: 40px;
-            display: flex;
-            flex-direction: row;
-          justify-content: flex-start;
-          gap: 0 25px;
-          padding-bottom: 0;
-        }
-        .footer-navigation-li{
-          font-size: 14px;
-          line-height: 18px; /* 128.571% */
-        }
-        .footer-slogan{
-            width: 521px;
-            margin: 0;
-        font-size: 54px;
-        line-height: 64px; /* 118.519% */
-        letter-spacing: -1.62px;
-            margin-bottom: 40px;
-          }
-        }
-
-
-      @media (min-width: 1280px){
-        .footer-container {
-          display: flex;
-          max-width: 1280px;
-
-        }
-
-     
-        .footer-slogan{
-      font-size: 64px;
-      line-height: 74px; /* 115.625% */
-      letter-spacing: -1.92px; 
-          width: 754px;
-          padding-top: 117px;
-        }
+    @media (max-width: 768px) and (min-resolution: 192dpi),
+      (min-resolution: 2dppx),
+      (min-device-pixel-ratio: 2) {
+      .footer-container {
+        background-image: url(/img/footer/ornament_mob@2x.png);
+        background-size: 100%;
       }
+    }
+  }
+  @media (min-width: 768px) {
+    .footer-container {
+      background-image: url(/img/footer/ornament_tab.png);
+      background-repeat: no-repeat;
+      background-position-x: right;
+      background-position-y: center;
+      background-size: 20%;
+    }
+    @media (min-width: 768px) and (min-resolution: 192dpi),
+      (min-resolution: 2dppx),
+      (min-device-pixel-ratio: 2) {
+      .footer-container {
+        background-image: url(/img/footer/ornament_tab@2x.png);
+        background-repeat: no-repeat;
+        background-size: 20%;
+      }
+    }
+  }
+  @media (min-width: 1280px) {
+    .footer-container {
+      background-image: url(/img/footer/ornament_desk.png);
+      background-repeat: no-repeat;
+      background-position-x: right;
+      background-position-y: center;
+      background-size: 28%;
+    }
+    @media (min-resolution: 192dpi),
+      (min-resolution: 2dppx),
+      (min-device-pixel-ratio: 2) {
+      .footer-section {
+        background-image: url(/img/footer/ornament_desk@2x.png);
+        background-size: 28%;
+      }
+    }
+  }
+}
+
+.footer-slogan {
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.22em;
+  letter-spacing: -1.32px;
+  width: 335px;
+}
+@media (max-width: 375px) {
+  .footer-slogan {
+    width: 95%;
+  }
+}
+.footer-ukrainian {
+  color: var(--yellow-color);
+}
+
+.footer-navigation {
+  column-count: 2;
+  padding-bottom: 15px;
+  display: block;
+}
+.footer-navigation-li {
+  padding-bottom: 25px;
+}
+.footer-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.28em;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .footer-section {
+    padding: 0;
+    background: image();
+  }
+  .footer-container {
+    display: flex;
+    max-width: 768px;
+    flex-direction: column;
+  }
+
+  .footer-navigation {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0 25px;
+    padding-bottom: 0;
+  }
+  .footer-navigation-li {
+    font-size: 14px;
+    line-height: 18px; /* 128.571% */
+  }
+  .footer-slogan {
+    width: 521px;
+    margin: 0;
+    font-size: 54px;
+    line-height: 64px; /* 118.519% */
+    letter-spacing: -1.62px;
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .footer-container {
+    display: flex;
+    max-width: 1280px;
+  }
+
+  .footer-slogan {
+    font-size: 64px;
+    line-height: 74px; /* 115.625% */
+    letter-spacing: -1.92px;
+    width: 754px;
+    padding-top: 117px;
+  }
+}
