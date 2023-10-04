@@ -11,6 +11,10 @@
     transition: transform 250ms ease-out;
     padding-left: 20px;
     padding-right: 20px;
+    background-image: url(../img/header/modal-logo.svg);
+    background-position: bottom;
+    background-size: 30%;
+    background-repeat: repeat-x;
   }
 
   .menu-modal-open {
@@ -63,15 +67,8 @@
     text-transform: uppercase;
   }
 
-  .modal-container {
-    background-image: url(../img/header/modal-logo.svg);
-    background-position: bottom;
-    background-size: 375px;
-    background-repeat: repeat-x;
-  }
-
   .modal-navigation-container {
-    margin-top: 185px;
+    margin-top: 150px;
   }
 }
 
@@ -88,6 +85,10 @@
     transition: transform 250ms ease-out;
     padding-left: 20px;
     padding-right: 20px;
+    background-image: url(../img/header/tablet-logo.svg);
+    background-position: bottom;
+    background-size: 15%;
+    background-repeat: repeat-x;
   }
 
   .menu-modal-open {
@@ -140,14 +141,7 @@
     text-transform: uppercase;
   }
 
-  .modal-container {
-    background-image: url(../img/header/tablet-logo.svg);
-    background-position: bottom;
-    background-size: 380px;
-    background-repeat: repeat-x;
-  }
-
   .modal-navigation-container {
-    margin-top: 185px;
+    margin-top: 150px;
   }
 }
