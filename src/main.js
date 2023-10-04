@@ -7,11 +7,11 @@ document.addEventListener(
       const openModalSelector = element + '-open';
       const closeModalSelector = element + '-close';
 
-      const openModalBtns = document.querySelectorAll(`[${openModalSelector}]`);
+      const openModalBtns = document.querySelectorAll(`.${openModalSelector}`);
       const closeModalBtns = document.querySelectorAll(
-        `[${closeModalSelector}]`
+        `.${closeModalSelector}`
       );
-      const modal = document.querySelector(`[${element}]`);
+      const modal = document.querySelector(`.${element}`);
 
       if (!modal) logModalError('Can`t find Modal with attribute ' + modal);
       if (openModalBtns.length === 0)
@@ -33,8 +33,7 @@ document.addEventListener(
       );
 
       function toggleModal() {
-        document.body.classList.toggle('modal-open');
-        modal.classList.toggle('is-hidden');
+        modal.classList.toggle('menu-modal-open');
       }
     });
   },

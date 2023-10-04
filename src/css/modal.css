@@ -1,10 +1,10 @@
 @media screen and (max-width: 767px) {
   .modal-container {
     position: fixed;
-    left: 0;
+    left: 50%;
     top: 0;
     z-index: 99999999;
-    width: 100%;
+    width: 50%;
     height: 100%;
     background-color: var(--yellow, #ecd979);
     transform: translateX(100%);
@@ -12,20 +12,24 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  .modal-container.is-open {
+
+  .menu-modal-open {
     transform: translateX(0%);
   }
+
   .modal-upper-part {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
+
   .modal-phone-container {
     padding: 12px 20px;
     border-radius: 15px;
     border: 1px solid rgba(28, 34, 37, 0.1);
   }
+
   .modal-phone {
     color: #1c2225;
     font-family: Manrope;
@@ -35,17 +39,20 @@
     line-height: 1.17;
     text-transform: uppercase;
   }
+
   .modal-close-button {
     background-color: transparent;
     border: none;
     stroke: #1c2225;
   }
+
   .modal-navigation-list {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 20px;
   }
+
   .modal-navigation-link {
     color: #1c2225;
     font-family: Manrope;
@@ -55,23 +62,26 @@
     line-height: 1.29;
     text-transform: uppercase;
   }
+
   .modal-container {
     background-image: url(../img/header/modal-logo.svg);
     background-position: bottom;
     background-size: 375px;
     background-repeat: repeat-x;
   }
+
   .modal-navigation-container {
     margin-top: 185px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .modal-container {
     position: fixed;
-    left: 0;
+    left: 50%;
     top: 0;
     z-index: 99999999;
-    width: 100%;
+    width: 50%;
     height: 100%;
     background-color: var(--yellow, #ecd979);
     transform: translateX(100%);
@@ -79,20 +89,24 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-  .modal-container.is-open {
+
+  .menu-modal-open {
     transform: translateX(0%);
   }
+
   .modal-upper-part {
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
+
   .modal-phone-container {
     padding: 12px 20px;
     border-radius: 15px;
     border: 1px solid rgba(28, 34, 37, 0.1);
   }
+
   .modal-phone {
     color: #1c2225;
     font-family: Manrope;
@@ -102,17 +116,20 @@
     line-height: 1.17;
     text-transform: uppercase;
   }
+
   .modal-close-button {
     background-color: transparent;
     border: none;
     stroke: #1c2225;
   }
+
   .modal-navigation-list {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     gap: 20px;
   }
+
   .modal-navigation-link {
     color: #1c2225;
     font-family: Manrope;
@@ -122,12 +139,14 @@
     line-height: 1.29;
     text-transform: uppercase;
   }
+
   .modal-container {
     background-image: url(../img/header/tablet-logo.svg);
     background-position: bottom;
     background-size: 380px;
     background-repeat: repeat-x;
   }
+
   .modal-navigation-container {
     margin-top: 185px;
   }
