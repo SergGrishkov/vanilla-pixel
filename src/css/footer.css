@@ -31,7 +31,7 @@
       background-repeat: no-repeat;
       background-position-x: right;
       background-position-y: center;
-      background-size: 20%;
+      background-size: 24%;
     }
     @media (min-width: 768px) and (min-resolution: 192dpi),
       (min-resolution: 2dppx),
@@ -39,7 +39,7 @@
       .footer-container {
         background-image: url(/img/footer/ornament_tab@2x.png);
         background-repeat: no-repeat;
-        background-size: 20%;
+        background-size: 24%;
       }
     }
   }
@@ -49,14 +49,14 @@
       background-repeat: no-repeat;
       background-position-x: right;
       background-position-y: center;
-      background-size: 28%;
+      background-size: 26%;
     }
     @media (min-resolution: 192dpi),
       (min-resolution: 2dppx),
       (min-device-pixel-ratio: 2) {
-      .footer-section {
+      .footer-container {
         background-image: url(/img/footer/ornament_desk@2x.png);
-        background-size: 28%;
+        background-size: 26%;
       }
     }
   }
@@ -98,15 +98,19 @@
   .footer-section {
     padding: 0;
     background: image();
+
   }
   .footer-container {
     display: flex;
     max-width: 768px;
     flex-direction: column;
+    padding-top: 40px;
   }
-
+  .footer-navigation-li {
+    padding-bottom: 0px;
+  }
   .footer-navigation {
-    margin-top: 40px;
+    
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -123,6 +127,7 @@
     font-size: 54px;
     line-height: 64px; /* 118.519% */
     letter-spacing: -1.62px;
+    margin-top: 80px;
     margin-bottom: 40px;
   }
 }
@@ -138,6 +143,6 @@
     line-height: 74px; /* 115.625% */
     letter-spacing: -1.92px;
     width: 754px;
-    padding-top: 117px;
+    margin-top: 117px;
   }
 }
