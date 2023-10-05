@@ -155,3 +155,7 @@
     margin-top: 150px;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
