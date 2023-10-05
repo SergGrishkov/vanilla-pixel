@@ -1,4 +1,7 @@
 @media screen and (max-width: 767px) {
+  .header {
+    padding-bottom: 0px;
+  }
 
   .header-navigation-container,
   .header-phone-container {
@@ -9,7 +12,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .header-social-container {
@@ -44,6 +48,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+    padding-bottom: 0px;
+  }
+
 
   .header-navigation-container,
   .header-phone-container {
@@ -54,7 +62,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .header-social-container {
@@ -95,6 +104,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+
+  .header {
+    padding-bottom: 0px;
+  }
+
   .header-menu-container {
     display: none;
   }

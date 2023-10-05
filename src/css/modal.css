@@ -6,15 +6,20 @@
     height: 100%;
     top: 0;
     z-index: 99999999;
-    background-color: var(--yellow, #ecd979);
     transform: translateX(100%);
     transition: transform 250ms ease-out;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .modal-wrapper {
+    width: 274px;
+    background-color: var(--yellow, #ecd979);
     padding-left: 20px;
     padding-right: 20px;
     background-image: url(../img/header/modal-logo.svg);
     background-position: bottom;
-    background-size: 30%;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
   }
 
   .menu-modal-open {
@@ -80,15 +85,20 @@
     height: 100%;
     top: 0;
     z-index: 99999999;
-    background-color: var(--yellow, #ecd979);
     transform: translateX(100%);
     transition: transform 250ms ease-out;
-    padding-left: 20px;
-    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .modal-wrapper {
+    width: 380px;
+    background-color: var(--yellow, #ecd979);
+    padding-left: 32px;
+    padding-right: 32px;
     background-image: url(../img/header/tablet-logo.svg);
     background-position: bottom;
-    background-size: 15%;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
   }
 
   .menu-modal-open {

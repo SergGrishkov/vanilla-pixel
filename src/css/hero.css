@@ -1,9 +1,14 @@
 /* Мобільні стилі */
 
 @media screen and (max-width: 767px) {
+  .hero {
+    padding-top: 44px;
+  }
+
   .hero-embroidery {
     display: none;
   }
+
   .hero-made-by-hand-img {
     display: none;
   }
@@ -68,6 +73,10 @@
 /* Планшетні стилі */
 
 @media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 60px;
+  }
+
   .hero-container {
     position: relative;
   }
@@ -132,6 +141,10 @@
 /* Десктопні стилі */
 
 @media screen and (min-width: 1280px) {
+  .hero {
+    padding-top: 80px;
+  }
+
   .hero-container {
     display: flex;
     flex-direction: row-reverse;
