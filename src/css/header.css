@@ -90,10 +90,10 @@
     justify-content: center;
   }
 
-  .header-social-item:hover,
-  .header-social-item:focus {
-    border: 1px solid var(--yellow, #ecd979);
-  }
+  /* .header-social-link:hover,
+  .header-social-link:focus {
+    color: var(--yellow, #ecd979);
+  } */
 
   .header-menu-button {
     background-color: transparent;
@@ -165,5 +165,22 @@
     display: flex;
     align-items: center;
     gap: 60px;
+  }
+
+  .header-navigation-item:hover,
+  .header-navigation-item:focus,
+  .header-navigation-link:hover,
+  .header-navigation-link:focus,
+  .header-phone-container:focus {
+    color: var(--yellow, #ecd979);
+  }
+
+  .header-phone-container:hover,
+  .header-phone-container:focus,
+  .header-phone-container:hover,
+  .header-social-item:hover,
+  .header-social-item:focus {
+
+    border: 1px solid var(--yellow, #ecd979);
   }
 }
