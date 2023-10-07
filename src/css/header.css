@@ -177,9 +177,13 @@
   }
 
   .header-phone-container:hover,
-  .header-phone-container:focus,
+  .header-phone-container:focus {
+    border: 1px solid var(--yellow, #ecd979);
+  }
+
   .header-social-item:hover,
   .header-social-item:focus {
     border: 1px solid var(--yellow, #ecd979);
+    background: transparent;
   }
 }
